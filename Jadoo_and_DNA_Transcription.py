@@ -11,21 +11,9 @@ T --> A
 A --> U
 '''
 
-def DNA_Transcription(self, arg1):
-    if (arg1 == 'G'):
-        return 'C'
-    elif (arg1 == 'C'):
-        return 'G'
-    elif (arg1 == 'T'):
-        return 'A'
-    elif (arg1 == 'A'):
-        return 'U'
-
-if __name__ == "__main__":
-    b = input()
-    DNA_Transcription(b)
-
-## b=input()
-## a="GCTA";c="CGAU"
-## try:print(''.join([c[a.index(i)]for i in b]))
-## except:print("Invalid Input")
+b=input()
+a="GCTA";c="CGAU"
+try:
+    print(''.join([c[a.index(i)]for i in b]))
+except:
+    print("Invalid Input")
