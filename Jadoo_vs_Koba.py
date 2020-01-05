@@ -11,3 +11,7 @@ ch = ord('F')
 while ch <= ord('P'):
     print(ch)
     ch += ord('B')-ord('A') ## B=65 & A= 64 => B-A=1
+
+### One Liner code
+# for i in range(ord('F'),ord('Q')):print(i)
+
